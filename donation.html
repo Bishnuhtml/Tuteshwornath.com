@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation - Tuteshwor Nath Temple</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background-container"></div>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="geography.html">Geography</a></li>
+            <li><a href="history.html">History</a></li>
+            <li><a href="location.html">Location & Map</a></li>
+            <li><a href="donation.html">Donation</a></li>
+				<li><a href="transportation.html">transportation</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Make a Donation</h1>
+    </header>
+
+    <section>
+        <h2>Support the Temple</h2>
+        <p>Your generous donations help us maintain and improve the temple facilities. Every contribution counts and is greatly appreciated.</p>
+
+        <form action="/submit-donation" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="amount">Donation Amount:</label>
+            <input type="number" id="amount" name="amount" min="1" required>
+
+            <label for="message">Message (optional):</label>
+            <textarea id="message" name="message"></textarea>
+
+            <button type="submit">Donate</button>
+        </form>
+
+        <div class="donation-info">
+            <h2>How Your Donation Helps</h2>
+            <p>Your contributions go towards temple upkeep, community outreach, and special projects that enhance the spiritual experience for everyone.</p>
+        </div>
+    </section>
+	  <p>Follow us on social media:</p>
+        <div class="social-media">
+            <a href="https://www.facebook.com/profile.php?id=100019809522283&mibextid=JRoKGi" target="_blank" class="social-icon facebook" aria-label="Facebook">
+                <img src="fac.jpg" alt="Facebook">
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=100019809522283&mibextid=JRoKGi" target="_blank" class="social-icon instagram" aria-label="Instagram">
+                <img src="ins.jpg" alt="Instagram">
+            </a>
+            <a href="https://twitter.com/YourProfile" target="_blank" class="social-icon twitter" aria-label="Twitter">
+                <img src="twi.jpg" alt="Twitter">
+            </a>
+        </div>
+
+    
+</body>
+</html>

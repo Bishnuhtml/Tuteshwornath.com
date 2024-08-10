@@ -1,0 +1,189 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif; /* Default font for the body */
+    margin: 0;
+    padding: 0;
+    background-image: url('Bis.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff; /* Default text color */
+    text-align: center;
+    transition: opacity 0.5s ease-in-out;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffd700; /* Golden color for nav links */
+    font-size: 1.1em;
+    padding: 15px 20px;
+    display: block;
+    font-family: 'Verdana', sans-serif; /* Font for nav links */
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 215, 0, 0.3);
+    border-radius: 5px;
+}
+
+/* Header */
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 80px 20px 20px;
+    margin-top: 60px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #ff4500; /* Orange-Red color for header */
+    font-family: 'Georgia', serif; /* Classic font for header */
+}
+
+/* Sections */
+section {
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+}
+
+section h2 {
+    color: #00bfff; /* Deep sky blue color for section headings */
+    font-size: 2em;
+    font-family: 'Courier New', monospace; /* Font for section headings */
+    margin-bottom: 15px;
+}
+
+section p {
+    color: #e0e0e0; /* Light grey for section text */
+    font-size: 1.2em;
+    line-height: 1.6;
+    font-family: 'Arial', sans-serif; /* Font for section text */
+    margin-bottom: 20px;
+}
+
+/* Image Styling */
+img {
+    border-radius: 8px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+    opacity: 0.8;
+}
+
+/* Footer */
+footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    color: #ffd700; /* Golden color for footer text */
+    font-family: 'Verdana', sans-serif; /* Font for footer text */
+}
+
+/* Links */
+a {
+    color: #ffd700; /* Golden color for links */
+    text-decoration: none;
+    font-family: 'Arial', sans-serif; /* Font for links */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Page Transition */
+.page-transition {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.page-transition.fade-in {
+    opacity: 1;
+}
+.donation {
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    text-align: center;
+}
+
+.donation h2 {
+    color: #ffd700; /* Gold color for heading */
+    font-size: 2em;
+    font-family: 'Georgia', serif; /* Font for heading */
+    margin-bottom: 15px;
+}
+
+.donation p {
+    color: #e0e0e0; /* Light grey color for text */
+    font-size: 1.2em;
+    line-height: 1.6;
+    font-family: 'Arial', sans-serif; /* Font for text */
+    margin-bottom: 20px;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media .social-icon {
+    display: inline-block;
+    margin: 0 10px;
+    width: 40px; /* Size of icons */
+    height: 40px;
+}
+
+.social-media .social-icon img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.social-media .social-icon:hover img {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+.social-icon.facebook {
+    /* Facebook specific styles if needed */
+}
+
+.social-icon.instagram {
+    /* Instagram specific styles if needed */
+}
+
+.social-icon.twitter {
+    /* Twitter specific styles if needed */
+}
